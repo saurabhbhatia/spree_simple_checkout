@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 
    s.author            = 'Saurabh Bhatia'
    s.email             = 'saurabh.a.bhatia@gmail.com'
-   s.homepage          = 'wub.heroku.com'
+   s.homepage          = 'http://wub.heroku.com'
   # s.rubyforge_project = 'actionmailer'
 
   s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
