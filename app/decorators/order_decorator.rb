@@ -1,5 +1,5 @@
 # customize the checkout state machine
-Spree::Order.state_machines[:state] = StateMachine::Machine.new(Spree::Order, :initial => 'cart', :use_transactions => false) do
+Order.state_machines[:state] = StateMachine::Machine.new(Order, :initial => 'cart', :use_transactions => false) do
   event :next do
     transition :from => 'cart', :to => 'address'
     transition :from => 'address', :to => 'complete'
